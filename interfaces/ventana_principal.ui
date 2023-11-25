@@ -13,13 +13,17 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(122, 122, 122);
+</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>180</x>
       <y>30</y>
-      <width>101</width>
+      <width>81</width>
       <height>31</height>
      </rect>
     </property>
@@ -31,6 +35,9 @@
       <italic>true</italic>
       <bold>true</bold>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Usuario:</string>
@@ -45,11 +52,14 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="ingreso">
+   <widget class="QPushButton" name="boton_ingreso">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -62,6 +72,10 @@
      <font>
       <family>Cambria</family>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(213, 203, 210);
+color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string>Ingresar</string>
@@ -85,6 +99,9 @@
       <bold>true</bold>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Contraseña:</string>
     </property>
@@ -97,6 +114,9 @@
       <width>371</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string/>
